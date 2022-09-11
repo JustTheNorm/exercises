@@ -32,17 +32,28 @@ class checkingAccount extends BankAccount{
             super.withdraw()
         }
     }
+    deposit(withdrawAmount){
+        super.deposit(withdrawAmount)
+    }
 }
 
 class savingsAccount extends BankAccount{
     withdraw(){
-        console.log(`Withdraw cannot be made on this account type`)
+        console.log(`Withdraw cannot be made on savings accounts type`)
     }
+
+    deposit(){
+        super.deposit()
+    }
+    
 }
 
 
 const myBank = new checkingAccount ('Norm', 50 , 123, 1)
+const saveBank = new savingsAccount ('Norm', 50 , 123, 1)
 
 myBank.deposit(1000)
 myBank.withdraw(500)
 myBank.withdraw(600)
+saveBank.deposit(1000)
+saveBank.withdraw(500)
