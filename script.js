@@ -373,9 +373,11 @@
 // function isVowel(x){
 //     let result
 //     x.toLowerCase()
-//     result =  x == 'a' || x == 'e' || x == 'i' || x == 'o' || x == 'u';
-//     return result
+//     result =  x.toLowerCase() === 'a' || x.toLowerCase() === 'e' || x.toLowerCase() === 'i' || x.toLowerCase() === 'o' || x.toLowerCase()=== 'u';
+//     console.log(result) 
 // }
+
+// isVowel(`v`)
 // ________________________________________________________________________________
 
 // E. getTwoLengths
