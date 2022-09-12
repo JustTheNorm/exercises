@@ -94,31 +94,41 @@
 ////////////////////////////////
 //  Excited Kitten
 ////////////////////////////////
-function getRandomInt(min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min) + min);
-}
-for(i=0;i<=20;i++){
-    console.log(`Love me, pet me! HSSSSSS!"`)
-    if(i%2==0){
-        let rng = getRandomInt(0, 3)
-        if (rng===0){
-            console.log("...human...why you taking pictures of me?...")
-        }
-        else if(rng === 1){
-            console.log("...the catnip made me do it...");
-        }
-        else {
-            console.log("...why does the red dot always get away...");
-        }
+// function getRandomInt(min, max) {
+//     min = Math.ceil(min);
+//     max = Math.floor(max);
+//     return Math.floor(Math.random() * (max - min) + min);
+// }
+// for(i=0;i<=20;i++){
+//     console.log(`Love me, pet me! HSSSSSS!"`)
+//     if(i%2==0){
+//         let rng = getRandomInt(0, 3)
+//         if (rng===0){
+//             console.log("...human...why you taking pictures of me?...")
+//         }
+//         else if(rng === 1){
+//             console.log("...the catnip made me do it...");
+//         }
+//         else {
+//             console.log("...why does the red dot always get away...");
+//         }
 
-    }
-    else{
-        continue
-    }
-}
+//     }
+//     else{
+//         continue
+//     }
+// }
 
 ////////////////////////////////
 //  Find the Median
 ////////////////////////////////
+const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
+
+let median = Math.floor(nums.length/2)
+console.log(nums[median])
+// let total = 0
+// for(i=0;i<nums.length;i++){
+//     total += nums[i]   
+// }
+// console.log(total)
+// Expected output:>= 15
