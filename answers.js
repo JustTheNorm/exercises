@@ -58,27 +58,27 @@
 ////////////////////////////////
 // Methods, Revisited
 ////////////////////////////////
-// const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
 
-// console.log(favMovies.indexOf(`Titanic`))
-// favMovies.sort()
-// console.log(favMovies)
-// favMovies.pop()
-// console.log(favMovies)
-// favMovies.push(`Guardians of the Galaxy`)
-// console.log(favMovies)
-// favMovies.reverse()
-// console.log(favMovies)
-// favMovies.shift()
-// console.log(favMovies)
-// favMovies.unshift(`Bad boys II`)
-// console.log(favMovies)
-// favMovies.splice(favMovies.indexOf(`Django Unchained`), 1, `Avatar`)
-// console.log(favMovies)
-// const half = favMovies.length / 2
-// const spliced = favMovies.slice(0, half)
-// console.log(spliced)
-// console.log(spliced.indexOf("Fast and Furious"))
+console.log(favMovies.indexOf(`Titanic`))
+favMovies.sort()
+console.log(favMovies)
+favMovies.pop()
+console.log(favMovies)
+favMovies.push(`Guardians of the Galaxy`)
+console.log(favMovies)
+favMovies.reverse()
+console.log(favMovies)
+favMovies.shift()
+console.log(favMovies)
+favMovies.unshift(`Bad boys II`)
+console.log(favMovies)
+favMovies.splice(favMovies.indexOf(`Django Unchained`), 1, `Avatar`)
+console.log(favMovies)
+const half = favMovies.length / 2
+const spliced = favMovies.slice(0, half)
+console.log(spliced)
+console.log(spliced.indexOf("Fast and Furious"))
 ////////////////////////////////
 // Where is Waldo
 ////////////////////////////////
@@ -122,13 +122,13 @@
 ////////////////////////////////
 //  Find the Median
 ////////////////////////////////
-const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
+// const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
 
-let median = Math.floor(nums.length/2)
-console.log(nums[median])
-let total = 0
-for(i=0;i<nums.length;i++){
-    total += nums[i]   
-}
-console.log(total)
+// let median = Math.floor(nums.length/2)
+// console.log(nums[median])
+// let total = 0
+// for(i=0;i<nums.length;i++){
+//     total += nums[i]   
+// }
+// console.log(total)
 // Expected output:>= 15
