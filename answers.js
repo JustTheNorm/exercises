@@ -47,38 +47,38 @@
 ////////////////////////////////
 // Yell at the Ninja Turtles
 ////////////////////////////////
-// const Turtles = [`Donatello`, `Leonardo`, `Raphael`, `Michaelangelo`]
-// const newTurtles = []
+const Turtles = [`Donatello`, `Leonardo`, `Raphael`, `Michaelangelo`]
+const newTurtles = []
 
-// for(let turtle of Turtles){
-//     newTurtles.push(turtle.toUpperCase())
-// }
-// console.log(newTurtles)
+for(let turtle of Turtles){
+    newTurtles.push(turtle.toUpperCase())
+}
+console.log(newTurtles)
 
 ////////////////////////////////
 // Methods, Revisited
 ////////////////////////////////
-const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+// const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
 
-console.log(favMovies.indexOf(`Titanic`))
-favMovies.sort()
-console.log(favMovies)
-favMovies.pop()
-console.log(favMovies)
-favMovies.push(`Guardians of the Galaxy`)
-console.log(favMovies)
-favMovies.reverse()
-console.log(favMovies)
-favMovies.shift()
-console.log(favMovies)
-favMovies.unshift(`Bad boys II`)
-console.log(favMovies)
-favMovies.splice(favMovies.indexOf(`Django Unchained`), 1, `Avatar`)
-console.log(favMovies)
-const half = favMovies.length / 2
-const spliced = favMovies.slice(0, half)
-console.log(spliced)
-console.log(spliced.indexOf("Fast and Furious"))
+// console.log(favMovies.indexOf(`Titanic`))
+// favMovies.sort()
+// console.log(favMovies)
+// favMovies.pop()
+// console.log(favMovies)
+// favMovies.push(`Guardians of the Galaxy`)
+// console.log(favMovies)
+// favMovies.reverse()
+// console.log(favMovies)
+// favMovies.shift()
+// console.log(favMovies)
+// favMovies.unshift(`Bad boys II`)
+// console.log(favMovies)
+// favMovies.splice(favMovies.indexOf(`Django Unchained`), 1, `Avatar`)
+// console.log(favMovies)
+// const half = favMovies.length / 2
+// const spliced = favMovies.slice(0, half)
+// console.log(spliced)
+// console.log(spliced.indexOf("Fast and Furious"))
 ////////////////////////////////
 // Where is Waldo
 ////////////////////////////////
