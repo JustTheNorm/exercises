@@ -82,19 +82,42 @@
 ////////////////////////////////
 // Where is Waldo
 ////////////////////////////////
-const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
-                    ["Lucinda", "Jacc", "Neff", "Snoop"],
-                    ["Petunia", ["Baked Goods", "Waldo"]]];
+// const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+//                     ["Lucinda", "Jacc", "Neff", "Snoop"],
+//                     ["Petunia", ["Baked Goods", "Waldo"]]];
 
-console.log(whereIsWaldo.splice(1,1))
-whereIsWaldo[1].splice(2, 1, "No One")
-console.log(whereIsWaldo)
-console.log(whereIsWaldo[2][1][1])
+// console.log(whereIsWaldo.splice(1,1))
+// whereIsWaldo[1].splice(2, 1, "No One")
+// console.log(whereIsWaldo)
+// console.log(whereIsWaldo[2][1][1])
 
 ////////////////////////////////
 //  Excited Kitten
 ////////////////////////////////
+function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min) + min);
+}
+for(i=0;i<=20;i++){
+    console.log(`Love me, pet me! HSSSSSS!"`)
+    if(i%2==0){
+        let rng = getRandomInt(0, 3)
+        if (rng===0){
+            console.log("...human...why you taking pictures of me?...")
+        }
+        else if(rng === 1){
+            console.log("...the catnip made me do it...");
+        }
+        else {
+            console.log("...why does the red dot always get away...");
+        }
 
+    }
+    else{
+        continue
+    }
+}
 
 ////////////////////////////////
 //  Find the Median
